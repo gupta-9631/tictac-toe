@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    height: 100vh;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.arrow {
+    text-align: left;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.register_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+
+}
+
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+
+.form_container input {
+    padding: 10px;
+    border: none;
+}
+
+.err {
+    color: red;
+    text-align: center;
+}
+
+.btn:disabled {
+    background-color: gray !important;
+}
